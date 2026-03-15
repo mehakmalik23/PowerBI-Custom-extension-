@@ -1,5 +1,5 @@
-# PowerBI-Custom-extension-# AI Data Assistant for Power BI
-
+# AI Data Assistant for Power BI
+Power BI Custom Visual with AI Backend
 This project implements a custom Power BI visual that allows users to query data using natural language. The system extracts data from a Power BI dataset and sends it to an AI backend for analysis and visualization recommendation.
 
 ## Components
@@ -36,3 +36,15 @@ Files:
 - TypeScript
 - Python Flask
 - OpenAI API
+- ## How to Run the Project
+
+### Backend
+1. Navigate to backend folder
+cd smartQA-backend
+pip install -r requirements.txt
+python app.py
+### Power BI Custom Visual
+1. Install Power BI Visual Tools
+npm install -g powerbi-visuals-tools
+pbiviz start
+2. Import the generated `.pbiviz` file into Power BI Desktop.
